@@ -1,18 +1,19 @@
+#!/usr/bin/python3
 import random
 
 numArray1 = []
 numArray2 = []
 
 while True:
-    rand = random.randint(7, 10)
-    if (rand%2) == 0:
+    length = random.randint(7, 10)
+    if (length%2) == 0:
         break
 
-for i in range(rand//2):
+for i in range(int(length/2)):
     rand = random.randint(0,9)
     numArray1.append(rand)
     numArray2.append(rand)
-for i in range (rand-3):
+for i in range (length-int(length/2)):
     while True:
         rand1 = random.randint(0,9)
         rand2 = random.randint(0,9)
