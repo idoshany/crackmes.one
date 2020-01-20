@@ -10,7 +10,7 @@ while True:
         break
 
 for i in range(int(length/2)):
-    rand = random.randint(0,9)
+    rand = random.randint(1,9)
     numArray1.append(rand)
     numArray2.append(rand)
 for i in range (length-int(length/2)):
